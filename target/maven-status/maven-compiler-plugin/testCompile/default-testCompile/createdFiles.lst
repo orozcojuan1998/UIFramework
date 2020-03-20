@@ -1,0 +1,10 @@
+drivermanager\DriverType.class
+steps\TutorialTaskSteps.class
+drivermanager\ChromeDriverManager.class
+drivermanager\DriverManager.class
+drivermanager\DriverManagerFactory$1.class
+runners\TestRunner.class
+drivermanager\DriverManagerFactory.class
+drivermanager\FirefoxDriverManager.class
+steps\Hooks.class
+steps\CategorySteps.class

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1584721449814" stop="1584721463376" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Tutorials and tasks</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1584721449816" stop="1584721463374" status="passed">
+            <name>Test grid of talks</name>
+            <title>Test grid of talks</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1584721458179" stop="1584721458180" status="passed">
+                    <name>Given The user is in the iamlittletester Homepage</name>
+                    <title>Given The user is in the iamlittletester Homepage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1584721458180" stop="1584721462453" status="passed">
+                    <name>When The user goes to the tutorials and taks page</name>
+                    <title>When The user goes to the tutorials and taks page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1584721462454" stop="1584721462560" status="passed">
+                    <name>Then The grid of talks is visible</name>
+                    <title>Then The grid of talks is visible</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test grid of talks"/>
+                <label name="feature" value="Tutorials and tasks"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="15728@EN911114.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Tutorials and tasks"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
