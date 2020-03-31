@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1585628848908" stop="1585628974668" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Shopping Cart</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1585628849174" stop="1585628913983" status="passed">
+            <name>Test add product to cart</name>
+            <title>Test add product to cart</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585628868088" stop="1585628877333" status="passed">
+                    <name>Given The user is in the application home page logged in</name>
+                    <title>Given The user is in the application home page logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628877376" stop="1585628885045" status="passed">
+                    <name>Given The user has look for "crema facial" in the search bar</name>
+                    <title>Given The user has look for "crema facial" in the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628885049" stop="1585628900917" status="passed">
+                    <name>When The user adds a displayed product to his shopping cart</name>
+                    <title>When The user adds a displayed product to his shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628900917" stop="1585628902630" status="passed">
+                    <name>Then The user is informed that the product was added to the cart</name>
+                    <title>Then The user is informed that the product was added to the cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628902630" stop="1585628912170" status="passed">
+                    <name>And The user delete the product of the shopping cart</name>
+                    <title>And The user delete the product of the shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test add product to cart"/>
+                <label name="feature" value="Shopping Cart"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="18596@EN911114.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1585628914174" stop="1585628974648" status="passed">
+            <name>Test to delete the only product in the cart</name>
+            <title>Test to delete the only product in the cart</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585628928150" stop="1585628937584" status="passed">
+                    <name>Given The user is in the application home page logged in</name>
+                    <title>Given The user is in the application home page logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628937584" stop="1585628946596" status="passed">
+                    <name>Given The user has look for "cuchara" in the search bar</name>
+                    <title>Given The user has look for "cuchara" in the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628946596" stop="1585628961335" status="passed">
+                    <name>When The user adds a displayed product to his shopping cart</name>
+                    <title>When The user adds a displayed product to his shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628961335" stop="1585628968496" status="passed">
+                    <name>And The user delete the product of the shopping cart</name>
+                    <title>And The user delete the product of the shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585628968496" stop="1585628973315" status="passed">
+                    <name>Then The user is informed that its shopping cart is empty</name>
+                    <title>Then The user is informed that its shopping cart is empty</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test to delete the only product in the cart"/>
+                <label name="feature" value="Shopping Cart"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="18596@EN911114.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Shopping Cart"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.TestRunner" time="32.546" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.TestRunner" time="130.473" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\jorozco\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\jorozco\apache-maven-3.6.3\bin;;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jorozco\scoop\shims;C:\Users\jorozco\AppData\Local\Microsoft\WindowsApps;;C:\Users\jorozco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;;C:\Users\jorozco\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\jorozco\apache-maven-3.6.3\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\jorozco\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\jorozco\AppData\Local\Programs\Python\Python37-32\;C:\Users\jorozco\AppData\Local\Programs\Python\Launcher\;C:\Users\jorozco\scoop\shims;C:\Users\jorozco\AppData\Local\Microsoft\WindowsApps;;C:\Users\jorozco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;;C:\Users\jorozco\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.4\bin;;."/>
     <property name="maven.conf" value="C:\Users\jorozco\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,12 +64,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given The user is in the iamlittletester Homepage" classname="Scenario: Test comics category is visible" time="0.01"/>
-  <testcase name="When The user goes to the comics category" classname="Scenario: Test comics category is visible" time="0"/>
-  <testcase name="Then The user is redirected to the comics category page" classname="Scenario: Test comics category is visible" time="0"/>
-  <testcase name="Scenario: Test comics category is visible" classname="Scenario: Test comics category is visible" time="0.912"/>
-  <testcase name="Given The user is in the iamlittletester Homepage" classname="Scenario: Test grid of talks" time="0"/>
-  <testcase name="When The user goes to the tutorials and taks page" classname="Scenario: Test grid of talks" time="0"/>
-  <testcase name="Then The grid of talks is visible" classname="Scenario: Test grid of talks" time="0"/>
-  <testcase name="Scenario: Test grid of talks" classname="Scenario: Test grid of talks" time="0.816"/>
+  <testcase name="Given The user is in the application home page logged in" classname="Scenario: Test add product to cart" time="0.009"/>
+  <testcase name="Given The user has look for &quot;crema facial&quot; in the search bar" classname="Scenario: Test add product to cart" time="0"/>
+  <testcase name="When The user adds a displayed product to his shopping cart" classname="Scenario: Test add product to cart" time="0"/>
+  <testcase name="Then The user is informed that the product was added to the cart" classname="Scenario: Test add product to cart" time="0"/>
+  <testcase name="And The user delete the product of the shopping cart" classname="Scenario: Test add product to cart" time="0"/>
+  <testcase name="Scenario: Test add product to cart" classname="Scenario: Test add product to cart" time="1.985"/>
+  <testcase name="Given The user is in the application home page logged in" classname="Scenario: Test to delete the only product in the cart" time="0"/>
+  <testcase name="Given The user has look for &quot;cuchara&quot; in the search bar" classname="Scenario: Test to delete the only product in the cart" time="0"/>
+  <testcase name="When The user adds a displayed product to his shopping cart" classname="Scenario: Test to delete the only product in the cart" time="0"/>
+  <testcase name="And The user delete the product of the shopping cart" classname="Scenario: Test to delete the only product in the cart" time="0"/>
+  <testcase name="Then The user is informed that its shopping cart is empty" classname="Scenario: Test to delete the only product in the cart" time="0"/>
+  <testcase name="Scenario: Test to delete the only product in the cart" classname="Scenario: Test to delete the only product in the cart" time="1.343"/>
 </testsuite>
