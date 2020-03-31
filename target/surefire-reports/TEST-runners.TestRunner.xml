@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.TestRunner" time="130.473" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.TestRunner" time="64.679" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -64,16 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given The user is in the application home page logged in" classname="Scenario: Test add product to cart" time="0.009"/>
-  <testcase name="Given The user has look for &quot;crema facial&quot; in the search bar" classname="Scenario: Test add product to cart" time="0"/>
-  <testcase name="When The user adds a displayed product to his shopping cart" classname="Scenario: Test add product to cart" time="0"/>
-  <testcase name="Then The user is informed that the product was added to the cart" classname="Scenario: Test add product to cart" time="0"/>
-  <testcase name="And The user delete the product of the shopping cart" classname="Scenario: Test add product to cart" time="0"/>
-  <testcase name="Scenario: Test add product to cart" classname="Scenario: Test add product to cart" time="1.985"/>
-  <testcase name="Given The user is in the application home page logged in" classname="Scenario: Test to delete the only product in the cart" time="0"/>
-  <testcase name="Given The user has look for &quot;cuchara&quot; in the search bar" classname="Scenario: Test to delete the only product in the cart" time="0"/>
-  <testcase name="When The user adds a displayed product to his shopping cart" classname="Scenario: Test to delete the only product in the cart" time="0"/>
-  <testcase name="And The user delete the product of the shopping cart" classname="Scenario: Test to delete the only product in the cart" time="0"/>
-  <testcase name="Then The user is informed that its shopping cart is empty" classname="Scenario: Test to delete the only product in the cart" time="0"/>
-  <testcase name="Scenario: Test to delete the only product in the cart" classname="Scenario: Test to delete the only product in the cart" time="1.343"/>
+  <testcase name="Given The guest user is in the Falabella homepage" classname="Scenario: Test filter price" time="0"/>
+  <testcase name="And The guest type &quot;Stan smith&quot; in the search bar" classname="Scenario: Test filter price" time="0"/>
+  <testcase name="When The guest apply the price for filter between &quot;290000&quot; and &quot;350000&quot;" classname="Scenario: Test filter price" time="0"/>
+  <testcase name="Then The guest should just see products in the given range" classname="Scenario: Test filter price" time="0"/>
+  <testcase name="Scenario: Test filter price" classname="Scenario: Test filter price" time="1.69"/>
 </testsuite>

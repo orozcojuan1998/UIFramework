@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1585629730198" stop="1585629792378" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Filter</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1585629730407" stop="1585629792216" status="passed">
+            <name>Test filter price</name>
+            <title>Test filter price</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585629747789" stop="1585629748319" status="passed">
+                    <name>Given The guest user is in the Falabella homepage</name>
+                    <title>Given The guest user is in the Falabella homepage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585629748319" stop="1585629763642" status="passed">
+                    <name>And The guest type "Stan smith" in the search bar</name>
+                    <title>And The guest type "Stan smith" in the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585629763644" stop="1585629772755" status="passed">
+                    <name>When The guest apply the price for filter between "290000" and "350000"</name>
+                    <title>When The guest apply the price for filter between "290000" and "350000"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585629772756" stop="1585629790661" status="passed">
+                    <name>Then The guest should just see products in the given range</name>
+                    <title>Then The guest should just see products in the given range</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test filter price"/>
+                <label name="feature" value="Filter"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="9580@EN911114.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Filter"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -79,7 +79,7 @@ public class ProductsPage extends BasePage {
         List<WebElement> results;
         waitElement(resultSearch);
         results = driver.findElements(searchResults);
-        click(results.get(2));
+        click(results.get(3));
         return new ProductDetailPage(driver);
     }
 }
